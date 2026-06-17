@@ -1,10 +1,10 @@
-import { Text } from "react-native";
+import UnderConstructionScreen from "@/components/UnderConstrucvtionScreen";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Favorites() {
   return (
-    <SafeAreaView>
-      <Text>favorites</Text>
+    <SafeAreaView style={{ flex: 1 }}>
+      <UnderConstructionScreen />
     </SafeAreaView>
   );
 }

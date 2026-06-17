@@ -1,10 +1,10 @@
-import { Text } from "react-native";
+import UnderConstructionScreen from "@/components/UnderConstrucvtionScreen";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Applications() {
   return (
-    <SafeAreaView>
-      <Text>applications</Text>
+    <SafeAreaView style={{ flex: 1 }}>
+      <UnderConstructionScreen />
     </SafeAreaView>
   );
 }
