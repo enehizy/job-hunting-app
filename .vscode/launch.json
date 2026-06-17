@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Radon IDE panel",
+      "type": "radon-ide",
+      "request": "launch",
+      "appRoot": "./",
+      "eas": {
+        "android": {
+          "profile": "development",
+          "buildUUID": "710d6a0e-7594-44e8-ba5c-96c7314f22da"
+        }
+      },
+      "env": {},
+      "ios": {},
+      "usePrebuild": false
+    }
+  ]
+}
